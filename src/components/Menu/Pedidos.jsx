@@ -55,7 +55,7 @@ function Pedidos() {
     return (
         <div className="text-white font-lekton">
             {/* === CARRUSEL DE CATEGORÍAS === */}
-            <div className="flex justify-between items-center mx-20 mt-10">
+            <div className="flex justify-between items-center mx-20 mt-2">
                 <button
                     onClick={prevCategory}
                     className="w-0 h-0 border-l-20 border-r-20 border-b-30 border-l-transparent border-r-transparent border-b-amber-300 -rotate-90 cursor-pointer transition-colors duration-300 hover:border-b-amber-400"
@@ -91,7 +91,7 @@ function Pedidos() {
                     <img
                         src={currentImage}
                         alt={currentPlate}
-                        className="rounded-full size-90 mr-20"
+                        className="rounded-full size-90 mr-20 hover:scale-110 duration-300 cursor-pointer"
                     />
                 </div>
             </div>
