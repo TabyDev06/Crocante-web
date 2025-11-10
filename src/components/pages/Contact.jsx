@@ -1,5 +1,5 @@
 import Background from "../../assets/Background.png";
-import Instagram from "../../assets/icons/Instagram.png";
+import Instagram from "../../assets/icons/instagram.png";
 import Facebook from "../../assets/icons/facebook.png";
 import Youtube from "../../assets/icons/youtube.png";
 
