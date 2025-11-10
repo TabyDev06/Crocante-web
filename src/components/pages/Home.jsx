@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Background from "../../assets/BackgroundHome.jpg";
+import { motion } from "framer-motion";
 
 function Home() {
     return (

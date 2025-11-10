@@ -8,14 +8,14 @@ function AboutUs() {
         >
             <div className="text-white">
                 <h2 className="font-lekton text-4xl mx-20 pt-25">Nuestra Historia & Pasión</h2>
-                <hr className="w-11/12 h-0.5 bg-white mx-auto mt-1 border-0" />
+                <hr className="w-11/12 h-0.5 bg-white mx-auto mt-5 border-0" />
             </div>
 
-            <div className="flex gap-15 mx-30 my-10">
+            <div className="flex gap-10 mx-20 my-10">
                 <img
                     src="src/assets/AcercaDe.jpg"
                     alt="Trabajador"
-                    className="rounded-2xl w-260"
+                    className="rounded-2xl object-cover"
                 />
                 <p className="flex justify-center items-center text-white font-lekton text-lg tracking-wider">
                     CROCANTE nació como un pequeño emprendimiento familiar con un objetivo muy claro:
@@ -36,7 +36,6 @@ function AboutUs() {
             </div>
 
             <hr className="w-11/12 h-0.5 bg-white mx-auto border-0" />
-            <h2 className="font-lekton text-4xl text-center m-5 text-white">¡Ven y conocenos!</h2>
         </div>
     );
 }
