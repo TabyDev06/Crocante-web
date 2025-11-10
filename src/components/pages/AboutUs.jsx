@@ -1,4 +1,5 @@
 import Background from "../../assets/Background.png";
+import AcercaDe from "../../assets/AcercaDe.jpg"
 
 function AboutUs() {
     return (
@@ -13,7 +14,7 @@ function AboutUs() {
 
             <div className="flex gap-10 mx-20 my-10">
                 <img
-                    src="src/assets/AcercaDe.jpg"
+                    src={AcercaDe}
                     alt="Trabajador"
                     className="rounded-2xl object-cover"
                 />
